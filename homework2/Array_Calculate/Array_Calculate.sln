@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2050
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Array_Calculate", "Array_Calculate\Array_Calculate.csproj", "{7D51923F-3EE7-4798-8752-E38068A1C351}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7D51923F-3EE7-4798-8752-E38068A1C351}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D51923F-3EE7-4798-8752-E38068A1C351}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D51923F-3EE7-4798-8752-E38068A1C351}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D51923F-3EE7-4798-8752-E38068A1C351}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {540E526C-853D-422E-8A15-8EBE8A788012}
+	EndGlobalSection
+EndGlobal
