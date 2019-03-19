@@ -167,12 +167,14 @@ namespace Order_manage
             int count;//记录待删除的订单号
             int.TryParse(Console.ReadLine(), out count);
             int tempnum;//存储每个订单的编号
+			bool has=false;
             for (int i = OrderList.Count - 1; i >= 0; i--)
             {
                 tempnum = OrderList[i].backnum();
                 if (tempnum==count)
-                    OrderList.Remove(OrderList[i]);
+				{ OrderList.Remove(OrderList[i]); has=true;break;}
             }
+			if(has==false)Console.WriteLine("没有该编号订单！");
 
         }
 
